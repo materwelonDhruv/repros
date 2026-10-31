@@ -1,6 +1,5 @@
-# fumadocs repros
+# repros
 
-- [`filter-element/`](./filter-element), the option is overwritten before the stringifier reads it
-- [`include-mdast/`](./include-mdast), `removePosition: true` exports `_mdast` with no value
-- [`inline-code-highlight/`](./inline-code-highlight), search highlighting skips a match inside backticks
-- [`macro-rename/`](./macro-rename), `fumadocs-mdx/macro` keeps a renamed or deleted file in `next dev`
+## vite
+
+- [`vite/plugin-name-in-errors/`](./vite/plugin-name-in-errors), errors from `config`, `configResolved`, `configureServer` and a dev server's `buildStart` don't say which plugin threw

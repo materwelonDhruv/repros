@@ -1,0 +1,17 @@
+{
+    "name": "vite-plugin-name-in-errors-repro",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "repro": "tsx repro.ts",
+        "build:config": "vite build",
+        "build:buildstart": "THROW_IN=buildStart vite build",
+        "typecheck": "tsc"
+    },
+    "devDependencies": {
+        "@types/node": "26.6.6",
+        "tsx": "4.23.15",
+        "typescript": "7.0.2",
+        "vite": "8.3.5"
+    }
+}
